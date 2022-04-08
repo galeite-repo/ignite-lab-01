@@ -28,7 +28,6 @@ model Course {
   title String
   slug  String @unique
 
-
   enrolledOn Enrollment[]
 }
 
